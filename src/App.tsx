@@ -9,7 +9,10 @@ import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(() => {
+    document.documentElement.classList.add('dark');
+    return true;
+  });
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -17,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />
