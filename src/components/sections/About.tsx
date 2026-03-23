@@ -42,7 +42,7 @@ export default function About() {
               className="p-4 bg-white dark:bg-dark-card rounded-xl border dark:border-dark-border hover:border-primary dark:hover:border-primary transition-colors"
             >
               <item.icon className="text-primary mb-2" size={24} />
-              <h3 className="font-semibold text-sm">{item.title}</h3>
+              <h3 className="font-semibold text-sm text-gray-900 dark:text-white">{item.title}</h3>
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{item.desc}</p>
             </motion.div>
           ))}
