@@ -58,8 +58,8 @@ export default function Hero() {
           transition={{ delay: 1.2 }}
           className="flex justify-center gap-4 mt-8"
         >
-          <a href="https://github.com/SouzaCodes01" target="_blank" rel="noreferrer" className="p-3 rounded-full hover:bg-gray-200 dark:hover:bg-dark-card transition-colors"><Github size={22} /></a>
-          <a href="#" className="p-3 rounded-full hover:bg-gray-200 dark:hover:bg-dark-card transition-colors"><Linkedin size={22} /></a>
+          <a href="https://github.com/SouzaCodes01" target="_blank" rel="noreferrer" className="p-3 rounded-full text-gray-400 hover:text-primary hover:bg-gray-200 dark:hover:bg-dark-card transition-colors"><Github size={22} /></a>
+          <a href="https://www.linkedin.com/in/gabriel-rodrigues-de-souza-83943332b" target="_blank" rel="noreferrer" className="p-3 rounded-full text-gray-400 hover:text-primary hover:bg-gray-200 dark:hover:bg-dark-card transition-colors"><Linkedin size={22} /></a>
         </motion.div>
 
         <motion.div
