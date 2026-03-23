@@ -10,8 +10,8 @@ export default function Footer() {
           </p>
           <div className="flex items-center space-x-4">
             <a href="https://github.com/SouzaCodes01" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors"><Github size={20} /></a>
-            <a href="#" className="hover:text-primary transition-colors"><Linkedin size={20} /></a>
-            <a href="mailto:" className="hover:text-primary transition-colors"><Mail size={20} /></a>
+            <a href="https://www.linkedin.com/in/gabriel-rodrigues-de-souza-83943332b" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors"><Linkedin size={20} /></a>
+            <a href="mailto:gabsrodriguesss11@gmail.com" className="hover:text-primary transition-colors"><Mail size={20} /></a>
           </div>
         </div>
       </div>
