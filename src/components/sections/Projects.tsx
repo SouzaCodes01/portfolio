@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
@@ -48,10 +48,10 @@ export default function Projects() {
               <div className="flex items-center justify-between mb-3">
                 <span className="text-xs font-medium px-2 py-1 rounded-full bg-primary/10 text-primary">{project.category}</span>
                 <div className="flex gap-2">
-                  <a href={project.github} target="_blank" rel="noreferrer" className="hover:text-primary transition-colors"><Github size={18} /></a>
+                  <a href={project.github} target="_blank" rel="noreferrer" className="text-gray-400 hover:text-primary transition-colors"><Github size={18} /></a>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
+              <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white group-hover:text-primary transition-colors">{project.title}</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((t) => (
