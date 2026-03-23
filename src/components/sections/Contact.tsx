@@ -25,7 +25,7 @@ export default function Contact() {
           <div className="space-y-4">
             <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
               <Mail size={20} className="text-primary" />
-              <span>contato@souza.dev</span>
+              <span>gabsrodriguesss11@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
               <MapPin size={20} className="text-primary" />
@@ -36,7 +36,7 @@ export default function Contact() {
             <a href="https://github.com/SouzaCodes01" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-dark-card rounded-lg hover:bg-primary/10 transition-colors">
               <Github size={20} />
             </a>
-            <a href="#" className="p-3 bg-gray-100 dark:bg-dark-card rounded-lg hover:bg-primary/10 transition-colors">
+            <a href="https://www.linkedin.com/in/gabriel-rodrigues-de-souza-83943332b" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-dark-card rounded-lg hover:bg-primary/10 transition-colors">
               <Linkedin size={20} />
             </a>
           </div>
