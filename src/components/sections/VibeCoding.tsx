@@ -32,7 +32,7 @@ export default function VibeCoding() {
               <item.icon className="text-primary" size={24} />
             </div>
             <div>
-              <h3 className="font-semibold mb-1">{item.title}</h3>
+              <h3 className="font-semibold mb-1 text-gray-900 dark:text-white">{item.title}</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">{item.desc}</p>
             </div>
           </motion.div>
